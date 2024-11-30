@@ -3,7 +3,7 @@ import "./Square.css";
 
 function Square({ value, onClick }) {
   return (
-    <button id="square" className="pointer text-center" onClick={onClick}>
+    <button id="board-square" className="pointer text-center" onClick={onClick}>
       {value}
     </button>
   );
