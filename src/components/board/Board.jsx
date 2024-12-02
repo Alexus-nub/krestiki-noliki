@@ -60,6 +60,7 @@ function Board() {
               value={squares[i * 3 + j]}
               onClick={() => handleClick(i * 3 + j)}
             />
+            //hello
           ))}
         </div>
       ))}
